@@ -112,7 +112,7 @@ Rates a tutor and updates their average rating.
 
 ## Folder Structure
 
-```
+```Ts
 .
 ├── public
 │   ├── index.html      # Main frontend page
@@ -156,6 +156,7 @@ Rates a tutor and updates their average rating.
    git push origin feature-name
    ```
 5. **Open a pull request.**
+
 ---
 
-## well the planning went to shit and the time why quite quick so forget about understanding any of this
+## well the planning went to shit and the time was quite quick so forget about understanding any of this
