@@ -11,76 +11,55 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <style>
-    html{
-      scroll-behavior: smooth;
-    }
     /* Custom background colors */
-    .bg-primary {
-      background-color: #0E1A2F;
+    .bg-primary { background-color: #0E1A2F; }
+    .bg-secondary { background-color: #1C2B4F; }
+    .bg-accent { background-color: #2F4170; }
+    .bg-light { background-color: #83A9C4; }
+    .bg-lightest { background-color: #C7D4E2; }
+    .text-primary { color: #0E1A2F; }
+    .text-secondary { color: #1C2B4F; }
+    .text-accent { color: #2F4170; }
+    .text-light { color: #83A9C4; }
+    .text-lightest { color: #C7D4E2; }
+  
+    /* Keyframe animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
     }
-
-    .bg-secondary {
-      background-color: #1C2B4F;
+  
+    @keyframes slideIn {
+      from { transform: translateY(-100%); }
+      to { transform: translateY(0); }
     }
-
-    .bg-accent {
-      background-color: #2F4170;
+  
+    /* Apply animations */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
     }
-
-    .bg-light {
-      background-color: #83A9C4;
-    }
-
-    .bg-lightest {
-      background-color: #C7D4E2;
-    }
-
-    .text-primary {
-      color: #0E1A2F;
-    }
-
-    .text-secondary {
-      color: #1C2B4F;
-    }
-
-    .text-accent {
-      color: #2F4170;
-    }
-
-    .text-light {
-      color: #83A9C4;
-    }
-
-    .text-lightest {
-      color: #C7D4E2;
+  
+    .slide-in {
+      animation: slideIn 0.5s ease-in-out;
     }
   </style>
 </head>
 
 <body class="bg-lightest text-primary font-sans">
-  <nav class="bg-primary text-white p-4 shadow-md">
+  <nav class="bg-primary text-white p-4 shadow-md slide-in">
     <div class="container mx-auto flex justify-between items-center">
       <a href="index.html" class="text-2xl font-semibold">EduConect</a>
 
       <!-- Hamburger Icon for Mobile -->
       <div class="lg:hidden">
-        <button id="hamburger" class="text-white focus:outline-none" aria-label="Toggle navigation">
+        <button id="hamburger" class="text-white focus:outline-none fade-in" aria-label="Toggle navigation">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
       </div>
-
-      <!-- Links for Desktop and Mobile -->
-      <ul id="nav-links" class="hidden lg:flex space-x-6">
-        <li><a href="index.html" class="hover:text-light">Home</a></li>
-        <li><a href="index.html#tutors" class="hover:text-light">Tutors</a></li>
-        <li><a href="register-tutor.html" class="hover:text-light">Join Us</a></li>
-        <li><a href="rate-tutor.html" class="hover:text-light">Rate</a></li>
-      </ul>
     </div>
   </nav>
-
 
   <!-- Hero Section -->
   <section class="bg-cover bg-center h-screen relative" style="background-image: url('https://cdn.discordapp.com/attachments/1109085677305479188/1320257855101730816/t.png?ex=6768f171&is=67679ff1&hm=989f23a4e84fc9c296cb1ad6dc393db90cba99c7460f832e657c92a1b107b08f&');">
@@ -181,7 +160,11 @@
 
   <script src="hamburger.js"></script>
   <script>
-    // Attach an event listener to the form submit button
+    document.getElementById("hamburger").addEventListener("click", function() {
+  const navLinks = document.getElementById("nav-links");
+  navLinks.classList.toggle("hidden");
+  navLinks.classList.toggle("fade-in");
+});// Attach an event listener to the form submit button
     document.getElementById('schedule-form').addEventListener('submit', function (event) {
       event.preventDefault();
 
