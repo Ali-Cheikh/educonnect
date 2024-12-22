@@ -1,0 +1,122 @@
+[
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "subjects": [
+      "Biology",
+      "Chemistry"
+    ],
+    "rating": 4.7,
+    "ratings": [
+      {
+        "rating": 5,
+        "studentEmail": "Eva"
+      },
+      {
+        "rating": 4,
+        "studentEmail": "Frank"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "subjects": [
+      "Computer Science",
+      "Math"
+    ],
+    "rating": 4.2,
+    "ratings": [
+      {
+        "rating": 4,
+        "studentEmail": "George"
+      },
+      {
+        "rating": 5,
+        "studentEmail": "Helen"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Samantha White",
+    "email": "samantha.white@example.com",
+    "subjects": [
+      "Literature",
+      "Art"
+    ],
+    "rating": 4.9,
+    "ratings": [
+      {
+        "rating": 5,
+        "studentEmail": "Irene"
+      },
+      {
+        "rating": 5,
+        "studentEmail": "Jack"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "David Clark",
+    "email": "david.clark@example.com",
+    "subjects": [
+      "Music",
+      "Drama"
+    ],
+    "rating": 4.3,
+    "ratings": [
+      {
+        "rating": 4,
+        "studentEmail": "Kelly"
+      },
+      {
+        "rating": 5,
+        "studentEmail": "Liam"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Olivia Martinez",
+    "email": "olivia.martinez@example.com",
+    "subjects": [
+      "Spanish",
+      "French"
+    ],
+    "rating": 4.6,
+    "ratings": [
+      {
+        "rating": 5,
+        "studentEmail": "Mia"
+      },
+      {
+        "rating": 4,
+        "studentEmail": "Noah"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Chris Lee",
+    "email": "chris.lee@example.com",
+    "subjects": [
+      "Geography",
+      "History"
+    ],
+    "rating": 4.4,
+    "ratings": [
+      {
+        "rating": 4,
+        "studentEmail": "Oscar"
+      },
+      {
+        "rating": 5,
+        "studentEmail": "Paula"
+      }
+    ]
+  }
+]

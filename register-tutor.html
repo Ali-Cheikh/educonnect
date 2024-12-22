@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Tutor</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="register-tutor.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Custom background colors */
+    .bg-primary { background-color: #0E1A2F; }
+    .bg-secondary { background-color: #1C2B4F; }
+    .bg-accent { background-color: #2F4170; }
+    .bg-light { background-color: #83A9C4; }
+    .bg-lightest { background-color: #C7D4E2; }
+    .text-primary { color: #0E1A2F; }
+    .text-secondary { color: #1C2B4F; }
+    .text-accent { color: #2F4170; }
+    .text-light { color: #83A9C4; }
+    .text-lightest { color: #C7D4E2; }
+  </style>
+</head>
+<body class="bg-lightest text-primary font-sans ">
+
+    <!-- Navbar Section -->
+    <nav class="bg-primary text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+          <a href="#" class="text-2xl font-semibold">edukonect</a>
+    
+          <!-- Hamburger Icon for Mobile -->
+          <div class="lg:hidden">
+            <button id="hamburger" class="text-white focus:outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
+    
+          <!-- Links for Desktop and Mobile -->
+          <ul id="nav-links" class="hidden lg:flex space-x-6">
+            <li><a href="index.html" class="hover:text-light">Home</a></li>
+            <li><a href="index.html#tutors" class="hover:text-light">Tutors</a></li>
+            <li><a href="register-tutor.html" class="hover:text-light">Join Us</a></li>
+            <li><a href="rate-tutor.html" class="hover:text-light">Rate</a></li>
+          </ul>
+        </div>
+      </nav>
+      <br><br><br>
+      <!-- Header Section -->
+      <header class="my-8 text-center px-4">
+        <h1 class="text-4xl sm:text-5xl font-bold text-secondary">Become a Tutor</h1>
+        <p class="mt-2 text-lg sm:text-xl text-light">Join us And benefit the children online!</p>
+      </header>
+    <div class=" h-500px"><br><br><br><br><br>
+ <!-- Registration Form Section -->
+  <section class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg mt-8 mb-12">
+    <h2 class="text-2xl font-bold text-center mb-6 text-primary">Tutor Registration Form</h2>
+    <form id="register-form">
+      <div class="mb-6">
+        <label for="name" class="block text-lg font-medium text-secondary mb-2">Full Name</label>
+        <input type="text" id="name" class="w-full border-2 border-gray-300 rounded-lg p-3 text-lg focus:outline-none focus:ring-2 focus:ring-accent" placeholder="John Doe" required />
+      </div>
+      <div class="mb-6">
+        <label for="email" class="block text-lg font-medium text-secondary mb-2">Email</label>
+        <input type="email" id="email" class="w-full border-2 border-gray-300 rounded-lg p-3 text-lg focus:outline-none focus:ring-2 focus:ring-accent" placeholder="youremail@example.com" required />
+      </div>
+      <div class="mb-6">
+        <label for="subjects" class="block text-lg font-medium text-secondary mb-2">Subjects</label>
+        <input type="text" id="subjects" class="w-full border-2 border-gray-300 rounded-lg p-3 text-lg focus:outline-none focus:ring-2 focus:ring-accent" placeholder="Math, Physics, etc." required />
+      </div>
+      <div class="text-right">
+        <button type="submit" class="bg-accent text-white px-6 py-3 rounded-lg text-lg hover:bg-secondary transition duration-200">Register Tutor</button>
+      </div>
+    </form>
+  </section>
+</div>
+ 
+
+  <!-- Footer Section -->
+  <footer id="contact" class="bg-secondary text-white text-center py-6 mt-16">
+    <p>&copy; 2024 Tutor Finder. All rights reserved.</p>
+  </footer>
+  
+  <script src="hamburger.js"></script>
+</body>
+</html>
