@@ -11,11 +11,11 @@
     "ratings": [
       {
         "rating": 5,
-        "studentEmail": "Eva"
+        "studentEmail": "Eva@12.12"
       },
       {
         "rating": 4,
-        "studentEmail": "Frank"
+        "studentEmail": "Frank@12.12"
       }
     ]
   },
@@ -31,11 +31,11 @@
     "ratings": [
       {
         "rating": 4,
-        "studentEmail": "George"
+        "studentEmail": "George@12.12"
       },
       {
         "rating": 5,
-        "studentEmail": "Helen"
+        "studentEmail": "Helen@12.12"
       }
     ]
   },
@@ -51,11 +51,11 @@
     "ratings": [
       {
         "rating": 5,
-        "studentEmail": "Irene"
+        "studentEmail": "Irene@12.12"
       },
       {
         "rating": 5,
-        "studentEmail": "Jack"
+        "studentEmail": "Jack@12.12"
       }
     ]
   },
@@ -71,11 +71,11 @@
     "ratings": [
       {
         "rating": 4,
-        "studentEmail": "Kelly"
+        "studentEmail": "Kelly@12.12"
       },
       {
         "rating": 5,
-        "studentEmail": "Liam"
+        "studentEmail": "Liam@12.12"
       }
     ]
   },
@@ -91,11 +91,11 @@
     "ratings": [
       {
         "rating": 5,
-        "studentEmail": "Mia"
+        "studentEmail": "Mia@12.12"
       },
       {
         "rating": 4,
-        "studentEmail": "Noah"
+        "studentEmail": "Noah@12.12"
       }
     ]
   },
@@ -111,11 +111,11 @@
     "ratings": [
       {
         "rating": 4,
-        "studentEmail": "Oscar"
+        "studentEmail": "Oscar@12.12"
       },
       {
         "rating": 5,
-        "studentEmail": "Paula"
+        "studentEmail": "Paula@12.12"
       }
     ]
   }
