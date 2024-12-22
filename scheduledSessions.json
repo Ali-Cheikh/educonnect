@@ -2,7 +2,13 @@
     {
       "tutorId": 1,
       "studentEmail": "Alice@12.12",
-      "date": "2024-12-25 10:00"
+      "date": "2024-12-25 10:00",
+      "details": "Review algebra concepts."
+    },
+    {
+      "tutorId": 2,
+      "studentEmail": "Bob@12.12",
+      "date": "2024-12-25 11:00",
+      "details": "Review algebra concepts."
     }
-  ]
-  
+]
